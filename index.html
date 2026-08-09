@@ -275,7 +275,7 @@
 <section id="intro" aria-label="Welcome">
   <div class="intro-inner">
     <p class="eyebrow" id="eyebrowText">A little something for you</p>
-    <h1 class="intro-title" id="introTitle">I will always love you</h1>
+    <h1 class="intro-title" id="introTitle">Our Album</h1>
     <p class="intro-sub" id="introSub">A collection of songs that somehow became ours.</p>
     <button class="enter-btn" id="enterBtn">Listen with me</button>
   </div>
@@ -284,7 +284,7 @@
 <!-- ============ MAIN APP ============ -->
 <main id="app">
   <header class="top">
-    <div class="brand" id="brandName">I will always love you</div>
+    <div class="brand" id="brandName">Our Album</div>
     <nav class="top-nav">
       <button id="navPlaylist">Playlist</button>
       <button id="navAbout">About</button>
@@ -297,7 +297,7 @@
     </div>
     <div class="hero-text">
       <p class="kicker">A playlist, just for you</p>
-      <h1 id="playlistTitle">I will always love you</h1>
+      <h1 id="playlistTitle">Our Album</h1>
       <p class="desc" id="playlistDesc">Songs that became ours.</p>
       <p class="hero-meta" id="playlistMeta"></p>
     </div>
@@ -414,9 +414,9 @@ const experience = {
     document.getElementById('playerLabel').textContent = "Add your playlist ID in the config to activate playback";
   }
 
-  if (cfg.https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84126b546b3785f3df075f0236) {
+  if (cfg.customArtworkUrl) {
     const img = document.getElementById('artImg');
-    img.src = cfg.https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84126b546b3785f3df075f0236;
+    img.src = cfg.customArtworkUrl;
     img.style.display = 'block';
   }
 })(experience);
